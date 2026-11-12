@@ -1,0 +1,207 @@
+/* ---------- Reset e base ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #1F2937;
+  line-height: 1.4;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ---------- Botões ---------- */
+.btn {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 500;
+  border: 2px solid #3882F6;
+  border-radius: 6px;
+  padding: 8px 24px;
+  cursor: pointer;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid #F9FAF8;
+}
+
+/* ---------- Cabeçalho + Hero ---------- */
+.dark-section {
+  background-color: #1F2937;
+  padding-bottom: 96px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #F9FAF8;
+}
+
+.nav {
+  display: flex;
+  gap: 16px;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+  padding-top: 64px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+  line-height: 1.1;
+  margin-bottom: 8px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin-bottom: 16px;
+}
+
+.hero-image {
+  flex: 1;
+  height: 220px;
+  background-color: #6B7280;
+  color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
+/* ---------- Informações ---------- */
+.info {
+  padding: 64px 24px 80px;
+  text-align: center;
+}
+
+.info h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+.card {
+  width: 190px;
+  color: #6B7280;
+  font-size: 18px;
+}
+
+.card-img {
+  width: 190px;
+  height: 190px;
+  border: 4px solid #3882F6;
+  border-radius: 24px;
+  margin-bottom: 12px;
+}
+
+/* ---------- Citação ---------- */
+.quote {
+  background-color: #E5E7EB;
+  padding: 80px 24px;
+}
+
+.quote blockquote {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.quote p {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1F2937;
+  margin-bottom: 12px;
+}
+
+.quote cite {
+  display: block;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  color: #1F2937;
+}
+
+/* ---------- Call to action ---------- */
+.cta-wrapper {
+  padding: 48px 24px 64px;
+}
+
+.cta {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border-radius: 8px;
+  padding: 32px 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-text h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.cta-text p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+/* ---------- Rodapé ---------- */
+footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  text-align: center;
+  padding: 24px;
+  font-size: 18px;
+}
